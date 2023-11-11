@@ -1,0 +1,53 @@
+
+.containair{
+    width: 80%;
+    margin: auto;
+    background-color: beige;
+}
+table, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: black;
+} 
+table{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+td,th {
+    padding: 15px;
+
+}
+th{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+}
+tr:nth-child(even) {
+    background-color:lightgray;
+
+}
+tr:hover {
+    background-color: darkgray;
+
+}
+td  [type = "button"] {
+    padding: 05px;
+    font-size: 15px;
+    width: 80%;
+
+} 
+
+caption {
+    text-align: left;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin: 10px 0px;
+
+}
+.cash {
+    text-align: center;
+}
